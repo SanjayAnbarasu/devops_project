@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copy all files to the container
-COPY . .
+COPY . /.
 
 # Set the default command
 CMD ["python", "main.py"]

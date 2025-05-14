@@ -11,11 +11,11 @@ def main():
     if operation == '+':
         result = calculator.add(a, b)
     elif operation == '-':
-        result = calculator.subtract(a, b)
+        result = calculator.sub(a, b)
     elif operation == '*':
-        result = calculator.multiply(a, b)
+        result = calculator.mul(a, b)
     elif operation == '/':
-        result = calculator.divide(a, b)
+        result = calculator.div(a, b)
     else:
         result = "❌ Invalid operation"
 
